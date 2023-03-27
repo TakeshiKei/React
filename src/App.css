@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.App section input {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.App section input:focus {
+  outline: none;
+  box-shadow: 0 0 20px #82C3EC;
+}
+
+.App section button {
+  background: linear-gradient(135deg, #82C3EC, white);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+  height:45px;
+  border: none;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.App section button:hover {
+  background: white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.App section ul {
+  list-style-type: none;
+}
+.App section li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.App section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App section img {
+  margin-top: 20px;
+}
+
+footer {
+  color: white;
+}
